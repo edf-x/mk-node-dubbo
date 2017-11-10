@@ -2,18 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.lishengguo</groupId>
-	<artifactId>node-dubbo-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<parent>
+        <artifactId>mk-node-dubbo</artifactId>
+        <groupId>com.github.lishengguo</groupId>
+        <version>0.0.1</version>
+    </parent>
 	<packaging>jar</packaging>
+	<artifactId>node-dubbo-service</artifactId>
 
 	<name>node-dubbo-service</name>
 	<url>http://maven.apache.org</url>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.2.4.RELEASE</spring.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
@@ -37,7 +35,7 @@
 			<dependency>
 				<groupId>com.github.lishengguo</groupId>
 				<artifactId>node-dubbo-interface</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.1</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
