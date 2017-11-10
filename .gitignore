@@ -3,3 +3,8 @@
 node_modules
 */node_modules
 */.setting
+.idea
+mk-node-dubbo.iml
+node-dubbo-interface/node-dubbo-interface.iml
+node-dubbo-service/node-dubbo-service.iml
+target
