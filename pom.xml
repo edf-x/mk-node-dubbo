@@ -52,7 +52,9 @@
 
 	<profiles>
 		<!-- special the release profile:deploy to The Central Repository(http://search.maven.org/)
-			Find out help on http://central.sonatype.org/pages/apache-maven.html#using-a-profile -->
+			Find out help on http://central.sonatype.org/pages/apache-maven.html#using-a-profile 
+			mvn deploy -P release -Dmaven.test.skip=true -e 
+			-->
 		<profile>
 			<id>release</id>
 			<build>
